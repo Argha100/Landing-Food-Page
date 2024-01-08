@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #048e78;
+  --background-color: #012b25;
+  --white-color: #ffffff;
+  --heading-text: #000;
+  --text-color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--text-color);
+  font-size: 1.5rem;
+
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.bg-header {
+  background-color: var(--background-color);
+}
+nav {
+  height: 9rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: var(--primary-color);
+}
+.nav-link.cta {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 4px 20px !important;
+  border-radius: 4px;
+}
+
+.nav-link.cta:hover {
+  background-color: #048e777b;
+  color: #fff;
+}
+
+.hero-section {
+  padding: 3.2rem 0;
+}
+.hero-section h1 {
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+.hero-section p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.hero-section .btn {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 1.8rem;
+  padding: 8px 24px;
+}
+.hero-img {
+  width: 80%;
+}
+.featured .btn {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 1.8rem;
+  padding: 8px 24px;
+}
+.featured .card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.5rem 0 1.3rem 0;
+}
+.featured .card-text {
+  font-size: 1.6rem;
+  color: #777;
+}
+.featured h1 {
+  font-size: 2.8rem;
+}
+.card {
+  overflow: hidden;
+}
+.card:hover img {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.how-it-works-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.how-it-works-text {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+.how-it-works {
+  padding: 2.4rem 0;
+}
+
+.testimonials {
+  padding: 5rem 0;
+  background-color: var(--background-color);
+}
+.testimonial-text,
+.testimonials-name {
+  color: var(--primary-color);
+}
+.testimonial-card {
+  width: 50%;
+}
+
+footer .col-12 {
+  padding-left: 11rem !important;
+}
